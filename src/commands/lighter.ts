@@ -1,19 +1,20 @@
-import { GluegunCommand } from 'gluegun'
+import { GluegunCommand } from 'gluegun';
+
+import * as figlet from 'figlet';
 
 const command: GluegunCommand = {
   name: 'lighter',
+  alias: ['lig'],
   run: async toolbox => {
-    const { print } = toolbox
+    const { print } = toolbox;
 
     print.info(
-      ' __       __    _______  __    __  .___________. _______ .______      \n' +
-        '|  |     |  |  /  _____||  |  |  | |           ||   ____||   _  \\           \n' +
-        '|  |     |  | |  |  __  |  |__|  | `---|  |----`|  |__   |  |_)  |            \n' +
-        '|  |     |  | |  | |_ | |   __   |     |  |     |   __|  |      /             \n' +
-        '|  `----.|  | |  |__| | |  |  |  |     |  |     |  |____ |  |\\  \\----.        \n' +
-        '|_______||__|  \\______| |__|  |__|     |__|     |_______|| _| `._____|\n'
-    )
+      figlet.textSync('Lighter', {
+        font: 'Fire Font-k',
+        horizontalLayout: 'fitted'
+      })
+    );
   }
-}
+};
 
-module.exports = command
+module.exports = command;

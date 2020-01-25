@@ -1,6 +1,6 @@
 # lighter CLI
 
-A CLI for lighter.
+A CLI for React.
 
 ## Customizing your CLI
 
@@ -22,4 +22,3 @@ $ npm publish
 # License
 
 MIT - see LICENSE
-
