@@ -1,8 +1,8 @@
 {
   "name": "lighter",
   "version": "0.0.1",
-  "description": "lighter CLI",
-  "private": true,
+  "description": "Command Line Interface to build React Styled Components",
+  "private": false,
   "types": "build/types/types.d.ts",
   "bin": {
     "lighter": "bin/lighter"

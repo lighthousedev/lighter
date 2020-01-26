@@ -27,6 +27,6 @@ module.exports = {
       props: { name }
     });
 
-    info(`Generated new component at components/${path}`);
+    info(`Generated new component at src/${path}`);
   }
 };
