@@ -1,7 +1,7 @@
 import { GluegunToolbox } from 'gluegun';
 
 module.exports = {
-  name: 'generate rsc',
+  name: 'generate-rsc',
   alias: ['g-rsc'],
   description: 'Generate new react styled component',
   run: async (toolbox: GluegunToolbox) => {
@@ -11,20 +11,22 @@ module.exports = {
       print: { info }
     } = toolbox;
 
-    const name = parameters.first;
+    const path = parameters.first;
+
+    const name = path.split('/').pop();
 
     await generate({
       template: 'index.js.ejs',
-      target: `components/${name}/index.js`,
+      target: `src/${path}/index.js`,
       props: { name }
     });
 
     await generate({
       template: 'styles.js.ejs',
-      target: `components/${name}/styles.js`,
+      target: `src/${path}/styles.js`,
       props: { name }
     });
 
-    info(`Generated new component at models/${name}`);
+    info(`Generated new component at components/${path}`);
   }
 };

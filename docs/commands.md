@@ -1,3 +1,3 @@
 # Command Reference for lighter
 
-TODO: Add your command reference here
+Gerar um novo styled component: `lighter generate rsc path(lighter g rsc path)`

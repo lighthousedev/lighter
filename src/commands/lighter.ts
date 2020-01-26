@@ -4,7 +4,6 @@ import * as figlet from 'figlet';
 
 const command: GluegunCommand = {
   name: 'lighter',
-  alias: ['lig'],
   run: async toolbox => {
     const { print } = toolbox;
 
