@@ -1,5 +1,5 @@
 {
-  "name": "lighter",
+  "name": "lighter-cli",
   "version": "0.0.1",
   "description": "Command Line Interface to build React Styled Components",
   "private": false,
