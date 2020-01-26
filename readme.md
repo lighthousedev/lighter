@@ -1,23 +1,10 @@
 # lighter CLI
 
-A CLI for React.
+Command Line Interface to React.
 
 ## Customizing your CLI
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
-
-## Publishing to NPM
-
-To package your CLI up for NPM, do this:
-
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
-```
+Created in order to automate the creation of React Styled Components.
 
 # License
 
