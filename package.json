@@ -1,6 +1,6 @@
 {
   "name": "lighter-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command Line Interface to build React Styled Components",
   "private": false,
   "types": "build/types/types.d.ts",
