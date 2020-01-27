@@ -2,9 +2,9 @@
 
 Command Line Interface to React.
 
-## Customizing your CLI
+## Motivation
 
-Created in order to automate the creation of React Styled Components.
+created in order to facilitate and automate the development in React and React Native.
 
 # License
 
